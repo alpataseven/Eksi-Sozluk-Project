@@ -6,14 +6,14 @@ import time
 
 browser = webdriver.Chrome()
 
-url = "https://eksisozluk.com/real-madrid--64109?p="
+url = "https://eksisozluk.com/yonetim-bilisim-sistemleri--125101?p="
 
 pageCount = 1
 entries = []
 entryCount = 1
 
-while pageCount <=10:
-    randomPage = random.randint(1,14)
+while pageCount <=6:
+    randomPage = random.randint(1,6)
     newUrl = url + str(randomPage)
     browser.get(newUrl)
     #Yukarıda 14 sayfadan 10 kere random sayfa açan kodu yazdık.
