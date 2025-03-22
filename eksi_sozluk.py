@@ -13,10 +13,10 @@ entries = []
 entryCount = 1
 
 while pageCount <=6:
-    randomPage = random.randint(1,6)
+    randomPage = random.randint(1,29)
     newUrl = url + str(randomPage)
     browser.get(newUrl)
-    #Yukarıda 14 sayfadan 10 kere random sayfa açan kodu yazdık.
+    #Yukarıda 28 sayfadan 10 kere random sayfa açan kodu yazdık.
     elements = browser.find_elements(By.CSS_SELECTOR, ".content")
     for element in elements:
         entries.append(element.text)
