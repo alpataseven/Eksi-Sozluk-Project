@@ -27,7 +27,7 @@ Bu scriptin çalışabilmesi için aşağıdaki bağımlılıkların yüklenmiş
 ```bash
 python eksi_sozluk.py
 ```
-2. Script çalıştırıldığında, Ekşi Sözlük'teki "Real Madrid" başlığının rastgele 10 sayfasından içerik çeker ve entries.txt dosyasına kaydeder.
+2. Script çalıştırıldığında, Ekşi Sözlük'teki "Yönetim Bilişim Sistemleri" başlığının rastgele 10 sayfasından içerik çeker ve entries.txt dosyasına kaydeder.
 3. Çalışma tamamlandıktan sonra, entries.txt dosyasında çekilen içerikleri bulabilirsiniz.
 
 ## Kod Açıklaması
@@ -67,7 +67,7 @@ python eksi_sozluk.py
   ```bash
   python eksi_sozluk.py
   ```
-  2. The script will fetch content from 10 random pages of the "Real Madrid" topic on Ekşi Sözlük and save it to entries.txt.
+  2. The script will fetch content from 10 random pages of the "Yönetim Bilişim Sistemleri" topic on Ekşi Sözlük and save it to entries.txt.
   3. After execution, you can find the extracted content in entries.txt.
 
   ## Code Explanation
